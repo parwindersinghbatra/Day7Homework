@@ -1,0 +1,27 @@
+.navbar{
+   display:flex;
+   justify-content: space-around;
+   background-color: rgb(255,255,255);
+   padding:1rem 0rem;
+   border-bottom: 1px solid black;
+   font-size: 17px;
+   overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+.nav-links{
+    display: flex;
+    gap:1rem;
+    margin-top:7px;
+}
+.nav-links>div>span:active{
+    color:blue
+}
+.nav-links>div>span:hover{
+    color:blue;
+}
+.logo{
+    font-size: 1.5rem;
+}

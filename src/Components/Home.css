@@ -1,0 +1,40 @@
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.card{
+    width: 380px;
+    padding: 0px;
+    box-shadow: 0  0 2px rgb(127, 125, 125);
+    margin:5px;
+    border-radius: 10px;
+}
+.footer_page{
+    background-color:#F3F4F6;
+    padding:20px;
+    display: block;
+    margin-top:10px;
+    margin-left: 0;
+    
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+
+}
+.card_value{
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:25px;
+}
+.Search_box{
+    margin-left: 20px;
+}
+.Search_box>input{
+    padding:5px;
+
+}
+.main_container{
+    
+    margin-top:90px;
+}
